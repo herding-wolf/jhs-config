@@ -1,0 +1,8 @@
+zuul.routes.sso.path=/sso/**
+zuul.routes.sso.url=sso-service
+
+zuul.routes.user.path=/user/**
+zuul.routes.user.url=user-service
+
+zuul.routes.web.path=/web/**
+zuul.routes.web.url=web-service
